@@ -1,0 +1,15 @@
+I have been able to attempt all parts of the coursework that was mandatory so as to produce a fully working simulation
+of the Beehive as per the specification.
+The Java source code contains two methods that can be used to start the simulation. But i have chosen 
+to accept the config file through the command line which was required as part of the Extension section.
+They are: readSimulationConfig() and inputConfigValues()
+Note that in the main() method, readSimulationConfig() is commented out. So if you want to test it, kindly 
+comment out the inputConfigValues() to do so.
+The program does not require the simconfig.txt to be created manually before execution, it will do so as you input values
+through the command line.
+For the configuration values, there are limits(neither of these values can be negative):
+-Simulation days cannot exceed 500
+-Worker bees cannot exceed 250
+-Honey cannot exceed 20000 units
+
+**There are comments throughout the program to improve readability.

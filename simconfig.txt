@@ -1,0 +1,3 @@
+simulationDays 100
+initWorkers 100
+initHoney 3000
